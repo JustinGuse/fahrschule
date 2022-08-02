@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fahrschule Lüdemann Melsdorf</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <style>
+
+    /*
+    Color Palette: Hell bis Dunkel
+    #ADD7F6
+    #87BFFF
+    #3F8EFC
+    #2667FF
+    #3B28CC
+     */
+
+    * {
+      padding: 0;
+      font-family: "Poppins", sans-serif;
+      color: black;
+    }
+
+    header {
+      /*background-color: #87BFFF;*/
+      border-bottom: black solid 2px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      flex-wrap: wrap;
+      height: auto;
+      width: 100%;
+    }
+
+    body {
+      /*background-color: #ADD7F6;*/
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .headline {
+      font-size: 3em;
+    }
+
+    .class-descriptions {
+      /*background-color: #87BFFF;*/
+      margin-top: 2.5em;
+      margin-bottom: 2.5em;
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      border-radius: 10px;
+    }
+
+    .list {
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: nowrap;
+    }
+
+    .list tr img {
+      width: 90px;
+      height: 90px;
+    }
+
+    tr {
+      /*background-color: #ADD7F6;*/
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 3em;
+      padding: 2em;
+      border-radius: 10px;
+    }
+
+    .group {
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    td img {
+    }
+
+    .classes-heading {
+      width: 100%;
+      font-size: 2em;
+      display: flex;
+      justify-content: center;
+      margin-top: 1em;
+      margin-bottom: 0.75em;
+    }
+
+    .classes {
+      width: 100%;
+      font-size: 1.5em;
+      display: flex;
+      justify-content: center;
+    }
+
+    .description {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      flex-wrap: wrap;
+    }
+
+    .leaded-driving {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      flex-wrap: wrap;
+    }
+
+    .leaded-driving * {
+      width: 100%;
+    }
+
+  </style>
+</head>
+<header>
+  <div class="headline">
+    Fahrschule Lüdemann
+  </div>
+</header>
+<body>
+
+<div class="class-descriptions">
+  <div class="classes-heading">
+    Unsere Fahrzeugklassen
+  </div>
+  <table class="list">
+
+    <tr>
+      <td>
+        <img src="/images/auto-90.png" alt="auto">
+      </td>
+      <th class="classes">
+        Klasse B (ab 18 Jahren)
+      </th>
+      <td class="description">
+        <p>beinhaltet AM, L</p>
+
+        Kraftfahrzeuge - ausgenommen Krafträder - mit einer zulässigen Gesamtmasse von nicht mehr als 3500 kg und mit
+        nicht mehr als acht Sitzplätzen außer dem Führersitz. Anhängerregelung: Anhänger mit zulässiger Gesamtmasse max.
+        750 kg immer erlaubt, Anhänger mit zulässiger Gesamtmasse über 750 kg erlaubt, wenn zulässiges Gesamtgewicht der
+        Fahrzuegkombination max 3500 kg beträgt.
+        Bei der Ausbildung fallen Übungsfahrten und 12 Sonderfahrten an: 5 Überlandfahrten, 4 Autobahnfahrten und
+        3 Beleuchtungsfahrten. Der theoretische Unterricht umfasst insgesamt 14 Unterrichtsstunden.
+      </td>
+    </tr>
+    <tr class="group">
+      <td>
+      <img src="/images/icons8-trailer-90.png" alt="auto">
+      </td>
+      <th class="classes">
+        Klasse BE (ab 18 Jahren)
+      </th>
+      <td class="description">
+        <p>nur mit Klasse B</p>
+        Keine Theorie Prüfung erforderlich - praktische Prüfung muss sein.
+        KFZ der Klasse B mit Anhänger oder Sattelanhänger mit zulässigem Gesamtgewicht des Anhängers über 750 kg, aber
+        max. 3500 kg.
+      </td>
+    </tr>
+    <tr>
+      <th class="classes">
+        Klasse B96
+      </th>
+      <td class="description">
+        <p>nur mit Klasse B</p>
+        Wird durch Zuteilung der Schlüsselzahl 96 erteilt. Keine Prüfung, aber besondere Schulung erforderlich.
+        KFZ der Klasse B mit Anhänger mit zulässigem Gesamtgewicht des Anhängers über 750 kg, zulässiges Gesamtgewicht
+        über 3500 kg, aber max. 4500 kg.
+      </td>
+    </tr>
+    <tr class="group">
+      <td>
+        <img src="/images/icons8-motorrad-100.png" alt="auto">
+      </td>
+      <th class="classes">
+        Klasse A (ab 18/24 Jahren)
+      </th>
+      <td class="description">
+        <p>beinhaltet A1, A2, AM</p>
+        Krafträder (Zweiräder, auch mit Beiwagen) mit einem Hubraum über 50 cm3 oder mit einer durch die Bauart
+        bestimmten Höchstgeschwindigkeit von mehr als 45 km/h.
+        Dreirädrige Kraftfahrzeuge mit Leistung über 15 kW.
+        Dreirädrige Kraftfahrzeuge mit symmetrisch angeordneten Rädern mit Hubraum über 50 cm³ (bei Verbrennungsmotoren)
+        oder bei Bauart bestimmten Höchstgeschwindigkeiten über 45 km/h oder mit Leistung über 15 kW.
+      </td>
+    </tr>
+    <tr class="group">
+      <th class="classes">
+        Klasse AM (ab 16 Jahren)
+      </th>
+      <td class="description">
+        <p>keine besondere Anforderung</p>
+
+        Zweirädrige und Dreirädrige Kleinkrafträder mit Bauart bestimmter Höchstgeschwindigkeit von max 45 km/h,
+        Hubraum max. 50 cm³ bei Verbrennungsmotor und einer max. Leistung von 4 kW bei Elektromotoren bzw Dieselmotoren.
+        Bei Vierrädrigen Leicht-Kfz zusätzlich eine Leermasse von max. 350 kg.
+      </td>
+    </tr>
+    <tr>
+      <th class="classes">
+        Klasse A2 (ab 18 Jahren)
+      </th>
+      <td class="description">
+        <p>keine besondere Anforderung</p>
+
+        Zweirädrige und Dreirädrige Kleinkrafträder mit Bauart bestimmter Höchstgeschwindigkeit von max 45 km/h,
+        Hubraum max. 50 cm³ bei Verbrennungsmotor und einer max. Leistung von 4 kW bei Elektromotoren bzw Dieselmotoren.
+        Bei Vierrädrigen Leicht-Kfz zusätzlich eine Leermasse von max. 350 kg.
+      </td>
+    </tr>
+    <tr>
+      <td class="leaded-driving">
+        *Bedingungen für begleitetes Fahren
+        <ul>
+          <li>Mindestalter für die Teilnahme ist 17 Jahre</li>
+          <li>Zustimmung der Erziehungsberechtigten</li>
+          <li>Begleiter müssen schriftlich bestätigen, dass sie über ihre Aufgaben und Rollen informiert sind</li>
+          <li>Fahren in Begleitung bis zur Vollendung des 18. Lebensjahres</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</div>
+
+</body>
+</html>
